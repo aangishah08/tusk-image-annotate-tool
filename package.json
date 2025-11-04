@@ -44,10 +44,10 @@
     "react-dom": "^17.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "test": "react-scripts test",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9090 -s public",
+    "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 9090 -s public",
     "build": "npm run build:babel && cp ./package.json ./dist/package.json && cp ./README.md ./dist/README.md",
     "dist": "npm run build && cd dist && npm publish",
     "build:babel": "NODE_ENV=production babel ./src --ignore \"src/**/*.story.js\" --out-dir=./dist && rm dist/index.js && cp dist/lib.js dist/index.js",
