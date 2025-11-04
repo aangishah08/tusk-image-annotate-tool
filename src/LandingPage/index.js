@@ -117,10 +117,10 @@ const LandingPage = () => {
             </HeroSub>
             <HeroButtons>
               <GitHubButton
-                href="https://github.com/waoai/react-image-annotate"
+                href="https://github.com/waoai/tusk-image-annotate-tool"
                 data-size="large"
                 data-show-count="true"
-                aria-label="Star waoai/react-image-annotate on GitHub"
+                aria-label="Star waoai/tusk-image-annotate-tool on GitHub"
               >
                 Star
               </GitHubButton>

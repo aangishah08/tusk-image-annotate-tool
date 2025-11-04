@@ -13,13 +13,13 @@
 ## Installation
 
 ```bash
-npm install react-image-annotate
+npm install tusk-image-annotate-tool
 ```
 
 ## Basic Example
 
 ```javascript
-import ReactImageAnnotate from "react-image-annotate"
+import ReactImageAnnotate from "tusk-image-annotate-tool"
 
 const App = () => (
   <ReactImageAnnotate

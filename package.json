@@ -43,10 +43,10 @@
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
-  "homepage": "/react-image-annotate",
+  "homepage": "/tusk-image-annotate-tool",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UniversalDataTool/react-image-annotate.git"
+    "url": "https://github.com/UniversalDataTool/tusk-image-annotate-tool.git"
   },
   "scripts": {
     "start": "react-scripts start",

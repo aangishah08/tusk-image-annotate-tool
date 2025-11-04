@@ -1,8 +1,8 @@
 # React Image Annotate
 
-[![npm version](https://badge.fury.io/js/react-image-annotate.svg)](https://badge.fury.io/js/react-image-annotate)
+[![npm version](https://badge.fury.io/js/tusk-image-annotate-tool.svg)](https://badge.fury.io/js/tusk-image-annotate-tool)
 
-The best image/video annotation tool ever. [Check out the demo here](https://universaldatatool.github.io/react-image-annotate/). Or the [code sandbox here](https://codesandbox.io/s/react-image-annotate-example-38tsc?file=/src/App.js:0-403).
+The best image/video annotation tool ever. [Check out the demo here](https://universaldatatool.github.io/tusk-image-annotate-tool/). Or the [code sandbox here](https://codesandbox.io/s/tusk-image-annotate-tool-example-38tsc?file=/src/App.js:0-403).
 
 ## Sponsors
 
@@ -20,11 +20,11 @@ The best image/video annotation tool ever. [Check out the demo here](https://uni
 
 ## Usage
 
-`npm install react-image-annotate`
+`npm install tusk-image-annotate-tool`
 
 ```javascript
 import React from "react";
-import ReactImageAnnotate from "react-image-annotate";
+import ReactImageAnnotate from "tusk-image-annotate-tool";
 
 const App = () => (
   <ReactImageAnnotate
@@ -71,7 +71,7 @@ All of the following properties can be defined on the Annotator...
 | `showPointDistances`     | `boolean`                                        | Show distances between points.                                                          | `false`       |
 | `pointDistancePrecision` | `number`                                         | Precision on displayed points (e.g. 3 => 0.123)                                         |               |
 | `onExit`                 | `MainLayoutState => any`                         | Called when "Save" is called.                                                           |               |
-| `RegionEditLabel`        | `Node`                                           | React Node overriding the form to update the region (see [`RegionLabel`](https://github.com/waoai/react-image-annotate/blob/master/src/RegionLabel/index.js))                                                          |               |
+| `RegionEditLabel`        | `Node`                                           | React Node overriding the form to update the region (see [`RegionLabel`](https://github.com/waoai/tusk-image-annotate-tool/blob/master/src/RegionLabel/index.js))                                                          |               |
 | `allowComments`          | `boolean`                                        | Show a textarea to add comments on each annotation.                                     | `false`       |
 | `hidePrev`               | `boolean`                                        | Hide `Previous Image` button from the header bar.                                       | `false`       |
 | `hideNext`               | `boolean`                                        | Hide `Next Image` button from the header bar.                                           | `false`       |
@@ -91,7 +91,7 @@ This project uses [react-storybook](https://storybook.js.org/). To begin develop
 
 A browser tab will automatically open with the project components.
 
-See more details in the [contributing guidelines](https://github.com/waoai/react-image-annotate/wiki/Setup-for-Development).
+See more details in the [contributing guidelines](https://github.com/waoai/tusk-image-annotate-tool/wiki/Setup-for-Development).
 
 ### Icons
 
